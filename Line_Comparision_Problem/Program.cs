@@ -50,10 +50,15 @@ namespace LineComparisionComputationProgram
             {
                 Console.WriteLine("The Two lines Are Equals");
             }
+            else if (Lenth_of_First_Line > Lenth_of_Second_Line)
+            {
+                Console.WriteLine("The first line is grether than Second line");
+            }
             else
             {
-                Console.WriteLine("The Two lines Are Not Equals");
+                Console.WriteLine("The first line is less than Second line");
             }
+
 
         }
     }
